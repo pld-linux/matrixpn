@@ -3,7 +3,7 @@ Summary:	Short voice messages through a web
 Summary(pl):	Przesy³anie krótkich wiadomo¶ci g³osowych przez sieæ
 Name:		matrixpn
 Version:	0.3
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Sound
 Source0:	http://download.auriga.wearlab.de/matrixpn/%{name}_%{version}-%{rel}.tar.gz
@@ -17,11 +17,10 @@ BuildRequires:	libtool
 BuildRequires:	libvorbis-devel
 BuildRequires:	libxml2-devel
 BuildRequires:	libxslt-devel
+BuildRequires:	rpmbuild(macros) >= 1.125
 BuildRequires:	xmms-devel
 BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define		_xmms_path	/usr/X11R6/lib/xmms/
 
 %description
 MPN spreads short voice messages through a web of trust; credibility
@@ -54,6 +53,7 @@ Summary:	MPN plugin for XMMS
 Summary(pl):	Wtyczka MPN dla XMMS-a
 Group:		X11/Applications/Sound
 Requires:	%{name} = %{version}
+Requires:	xmms
 
 %description -n xmms-effect-matrixnews
 MPN plugin for XMMS.
@@ -98,4 +98,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n xmms-effect-matrixnews
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_xmms_path}/Effect/*
+%attr(755,root,root) %{_xmms_effect_plugindir}/*
