@@ -68,7 +68,7 @@ rm -f missing
 %{__libtoolize}
 %{__aclocal}
 %{__autoconf}
-autoheader
+%{__autoheader}
 %{__automake}
 %configure --disable-xmltest
 %{__make}
