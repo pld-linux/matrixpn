@@ -62,7 +62,7 @@ MPN plugin for XMMS.
 Wtyczka MPN dla XMMS-a.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 
 %build
 rm -f missing
@@ -71,14 +71,16 @@ rm -f missing
 %{__autoconf}
 %{__autoheader}
 %{__automake}
-%configure --disable-xmltest
+%configure \
+	--disable-xmltest
 %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
