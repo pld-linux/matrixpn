@@ -51,7 +51,7 @@ Pakiet do programowania z u¿yciem MPN.
 %package -n xmms-effect-matrixnews
 Summary:	MPN plugin for XMMS
 Summary(pl):	Wtyczka MPN dla XMMS-a
-Group:		X11/Applications/Multimedia
+Group:		X11/Applications/Sound
 Requires:	%{name} = %{version}
 
 %description -n xmms-effect-matrixnews
