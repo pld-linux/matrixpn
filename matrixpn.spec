@@ -6,8 +6,8 @@ Version:	0.3
 Release:	1
 License:	GPL
 Group:		Applications/Sound
-Source0:	http://auriga.wearlab.de:81/matrixpn/%{name}_%{version}-%{rel}.tar.gz
-# Source0-md5:	cf23109e14846edc3630010b2e7af0bf
+Source0:	http://download.auriga.wearlab.de/matrixpn/%{name}_%{version}-%{rel}.tar.gz
+# Source0-md5:	4177a281945aa6442177b69303a04cc1
 URL:		http://matrixpn.auriga.wearlab.de/
 BuildRequires:	autoconf
 BuildRequires:	automake
