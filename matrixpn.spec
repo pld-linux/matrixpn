@@ -13,9 +13,9 @@ BuildRequires:	automake
 BuildRequires:	gtk+-devel
 BuildRequires:	libogg-devel
 BuildRequires:	libtool
-BuildRequires:	libvorbis-devel 
+BuildRequires:	libvorbis-devel
 BuildRequires:	libxml2-devel
-BuildRequires:	libxslt-devel 
+BuildRequires:	libxslt-devel
 BuildRequires:	xmms-devel
 BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -28,7 +28,7 @@ decays until a threshold where the message is dropped. It comes with a
 program for recording and sending messages as well as plugins for XMMS
 (in separate package) and WinAmp (in Windows version) that play
 received messages.
-				 
+
 %description -l pl
 MPN rozpowszechnia krótkie wiadomo¶ci g³osowe poprzez sieæ zaufania;
 wiarygodno¶æ zanika do osi±gniêcia progu, poni¿ej którego wiadomo¶æ
@@ -49,9 +49,9 @@ MPN development package.
 Pakiet do programowania z u¿yciem MPN.
 
 %package -n xmms-effect-matrixnews
-Summary:        MPN plugin for XMMS
-Summary(pl):    Wtyczka MPN dla XMMS-a
-Group:          X11/Applications/Multimedia
+Summary:	MPN plugin for XMMS
+Summary(pl):	Wtyczka MPN dla XMMS-a
+Group:		X11/Applications/Multimedia
 Requires:	%{name} = %{version}
 
 %description -n xmms-effect-matrixnews
