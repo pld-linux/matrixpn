@@ -12,6 +12,7 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtk+-devel
 BuildRequires:	libogg-devel
+BuildRequires:	libtool
 BuildRequires:	libvorbis-devel 
 BuildRequires:	libxml2-devel
 BuildRequires:	libxslt-devel 
