@@ -8,6 +8,8 @@ License:	GPL
 Group:		Applications/Sound
 Source0:	http://auriga.wearlab.de:81/matrixpn/%{name}_%{version}-%{rel}.tar.gz
 URL:		http://matrixpn.auriga.wearlab.de/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	gtk+-devel
 BuildRequires:	libogg-devel
 BuildRequires:	libvorbis-devel 
@@ -63,7 +65,7 @@ Wtyczka MPN dla XMMS-a.
 %build
 rm -f missing
 %{__libtoolize}
-aclocal
+%{__aclocal}
 %{__autoconf}
 autoheader
 %{__automake}
