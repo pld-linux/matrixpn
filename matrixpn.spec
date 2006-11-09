@@ -40,7 +40,7 @@ pakiecie) i WinAmpa (w wersji pod Windows).
 Summary:	MPN development package
 Summary(pl):	Pakiet do programowania z u¿yciem MPN
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 MPN development package.
@@ -52,7 +52,7 @@ Pakiet do programowania z u¿yciem MPN.
 Summary:	MPN plugin for XMMS
 Summary(pl):	Wtyczka MPN dla XMMS-a
 Group:		X11/Applications/Sound
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Requires:	xmms
 
 %description -n xmms-effect-matrixnews
