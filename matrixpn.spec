@@ -1,6 +1,6 @@
 %define		rel	2
 Summary:	Short voice messages through a web
-Summary(pl):	Przesy³anie krótkich wiadomo¶ci g³osowych przez sieæ
+Summary(pl.UTF-8):   PrzesyÅ‚anie krÃ³tkich wiadomoÅ›ci gÅ‚osowych przez sieÄ‡
 Name:		matrixpn
 Version:	0.3
 Release:	2
@@ -29,28 +29,28 @@ program for recording and sending messages as well as plugins for XMMS
 (in separate package) and WinAmp (in Windows version) that play
 received messages.
 
-%description -l pl
-MPN rozpowszechnia krótkie wiadomo¶ci g³osowe poprzez sieæ zaufania;
-wiarygodno¶æ zanika do osi±gniêcia progu, poni¿ej którego wiadomo¶æ
-jest porzucana. Zestaw zawiera program do nagrywania i wysy³ania
-wiadomo¶ci oraz wtyczki odtwarzaj±ce dla XMMS-a (w oddzielnym
+%description -l pl.UTF-8
+MPN rozpowszechnia krÃ³tkie wiadomoÅ›ci gÅ‚osowe poprzez sieÄ‡ zaufania;
+wiarygodnoÅ›Ä‡ zanika do osiÄ…gniÄ™cia progu, poniÅ¼ej ktÃ³rego wiadomoÅ›Ä‡
+jest porzucana. Zestaw zawiera program do nagrywania i wysyÅ‚ania
+wiadomoÅ›ci oraz wtyczki odtwarzajÄ…ce dla XMMS-a (w oddzielnym
 pakiecie) i WinAmpa (w wersji pod Windows).
 
 %package devel
 Summary:	MPN development package
-Summary(pl):	Pakiet do programowania z u¿yciem MPN
+Summary(pl.UTF-8):   Pakiet do programowania z uÅ¼yciem MPN
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 MPN development package.
 
-%description devel -l pl
-Pakiet do programowania z u¿yciem MPN.
+%description devel -l pl.UTF-8
+Pakiet do programowania z uÅ¼yciem MPN.
 
 %package -n xmms-effect-matrixnews
 Summary:	MPN plugin for XMMS
-Summary(pl):	Wtyczka MPN dla XMMS-a
+Summary(pl.UTF-8):   Wtyczka MPN dla XMMS-a
 Group:		X11/Applications/Sound
 Requires:	%{name} = %{version}-%{release}
 Requires:	xmms
@@ -58,7 +58,7 @@ Requires:	xmms
 %description -n xmms-effect-matrixnews
 MPN plugin for XMMS.
 
-%description -n xmms-effect-matrixnews -l pl
+%description -n xmms-effect-matrixnews -l pl.UTF-8
 Wtyczka MPN dla XMMS-a.
 
 %prep
