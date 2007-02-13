@@ -1,6 +1,6 @@
 %define		rel	2
 Summary:	Short voice messages through a web
-Summary(pl.UTF-8):   Przesyłanie krótkich wiadomości głosowych przez sieć
+Summary(pl.UTF-8):	Przesyłanie krótkich wiadomości głosowych przez sieć
 Name:		matrixpn
 Version:	0.3
 Release:	2
@@ -38,7 +38,7 @@ pakiecie) i WinAmpa (w wersji pod Windows).
 
 %package devel
 Summary:	MPN development package
-Summary(pl.UTF-8):   Pakiet do programowania z użyciem MPN
+Summary(pl.UTF-8):	Pakiet do programowania z użyciem MPN
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -50,7 +50,7 @@ Pakiet do programowania z użyciem MPN.
 
 %package -n xmms-effect-matrixnews
 Summary:	MPN plugin for XMMS
-Summary(pl.UTF-8):   Wtyczka MPN dla XMMS-a
+Summary(pl.UTF-8):	Wtyczka MPN dla XMMS-a
 Group:		X11/Applications/Sound
 Requires:	%{name} = %{version}-%{release}
 Requires:	xmms
